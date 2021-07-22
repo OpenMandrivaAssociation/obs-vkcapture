@@ -8,8 +8,10 @@ Url:		https://github.com/nowrep/obs-vkcapture
 Source0:	https://github.com/nowrep/obs-vkcapture/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
 BuildRequires:	cmake ninja
+BuildRequires:  pkgconfig(libobs)
 BuildRequires:  vulkan-headers
 BuildRequires:  pkgconfig(vulkan)
+BuildRequires:  pkgconfig(x11)
 
 Requires: obs-studio
 Requires: vulkan-loader
