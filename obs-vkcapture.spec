@@ -22,7 +22,7 @@ This package is in the Restricted repository because it depend on OBS-Studio and
 
 %prep
 %autosetup -n %{name}-%{version} -p1
-%cmake  /
+%cmake  \
     -DCMAKE_INSTALL_LIBDIR=%_lib \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_BUILD_TYPE=Release \
