@@ -21,6 +21,13 @@ Requires: vulkan-loader
 Free and open source software for game capture in Vulkan and OpenGL in OBS-Studio.
 This package is in the Restricted repository because it depend on OBS-Studio and OBS require x264 codec.
 To use on X11 session you need to enable EGL. Like here: "OBS_USE_EGL=1 obs"
+1. Add Game Capture to your OBS scene.
+2. Start the game with capture enabled
+-Vulkan
+obs-vkcapture game
+-OpenGL
+obs-glcapture game
+
 
 
 
