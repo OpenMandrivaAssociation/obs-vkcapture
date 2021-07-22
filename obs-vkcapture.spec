@@ -34,14 +34,13 @@ This package is in the Restricted repository because it depend on OBS-Studio and
 
 %install
 %ninja_install -C build
-    
-  
-%find_lang %{name}
 
-%files -f %{name}.lang
+%files
 %{_bindir}/obs-glcapture
 %{_bindir}/obs-vkcapture
 %{_libdir}/libVkLayer_obs_vkcapture.so
 %{_libdir}/libobs_glcapture.so
 %{_libdir}/obs-plugins/linux-vkcapture.so
 %{_datadir}/vulkan/implicit_layer.d/obs_vkcapture_64.json
+%{_datadir}/obs/obs-plugins/linux-vkcapture/locale/cs-CZ.ini
+%{_datadir}/obs/obs-plugins/linux-vkcapture/locale/en-US.ini
