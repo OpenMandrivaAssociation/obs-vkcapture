@@ -7,6 +7,9 @@ Group:		Video
 Url:		https://github.com/nowrep/obs-vkcapture
 Source0:	https://github.com/nowrep/obs-vkcapture/archive/refs/tags/v%{version}/%{name}-%{version}.tar.gz
 
+# Issue:    https://github.com/nowrep/obs-vkcapture/issues/23
+Patch0:     fix-compilation-on-arm.patch
+
 BuildRequires:	cmake ninja
 BuildRequires:  pkgconfig(libobs)
 BuildRequires:  vulkan-headers
@@ -27,9 +30,6 @@ To use on X11 session you need to enable EGL. Like here: "OBS_USE_EGL=1 obs"
 obs-vkcapture game
 -OpenGL
 obs-glcapture game
-
-
-
 
 %prep
 %autosetup -n %{name}-%{version} -p1
