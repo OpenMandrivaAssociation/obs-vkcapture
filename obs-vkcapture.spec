@@ -54,3 +54,5 @@ obs-glcapture game
 %{_datadir}/vulkan/implicit_layer.d/obs_vkcapture_64.json
 %{_datadir}/obs/obs-plugins/linux-vkcapture/locale/cs-CZ.ini
 %{_datadir}/obs/obs-plugins/linux-vkcapture/locale/en-US.ini
+%{_datadir}/obs/obs-plugins/linux-vkcapture/locale/ru-RU.ini
+
