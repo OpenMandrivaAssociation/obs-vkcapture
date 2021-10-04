@@ -55,4 +55,4 @@ obs-glcapture game
 %{_datadir}/obs/obs-plugins/linux-vkcapture/locale/cs-CZ.ini
 %{_datadir}/obs/obs-plugins/linux-vkcapture/locale/en-US.ini
 %{_datadir}/obs/obs-plugins/linux-vkcapture/locale/ru-RU.ini
-
+%{_datadir}/obs/obs-plugins/linux-vkcapture/locale/de-DE.ini
