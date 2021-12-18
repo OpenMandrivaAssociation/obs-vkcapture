@@ -45,7 +45,7 @@ obs-glcapture game
 %install
 %ninja_install -C build
 
-%files -f %{name}.lang
+%files
 %{_bindir}/obs-glcapture
 %{_bindir}/obs-vkcapture
 %{_libdir}/libVkLayer_obs_vkcapture.so
