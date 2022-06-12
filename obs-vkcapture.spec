@@ -16,6 +16,7 @@ BuildRequires:  vulkan-headers
 BuildRequires:  pkgconfig(vulkan)
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(opengl)
+BuildRequires: glibc-static-devel
 
 Requires: obs-studio
 Requires: vulkan-loader
