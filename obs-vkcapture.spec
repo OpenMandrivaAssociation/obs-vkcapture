@@ -1,6 +1,6 @@
 Summary:	Free and open source plugin to allow recording/streaming in OBS as Vulkan or OpenGL game capture.
 Name:		obs-vkcapture
-Version:	1.4.1
+Version:	1.4.3
 Release:	1
 License:	GPLv2.0
 Group:		Video
