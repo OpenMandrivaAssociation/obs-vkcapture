@@ -51,7 +51,7 @@ obs-glcapture game
 %{_bindir}/obs-glcapture
 %{_bindir}/obs-vkcapture
 %{_libdir}/libVkLayer_obs_vkcapture.so
-%{_libdir}/libobs_glcapture.so
+#{_libdir}/libobs_glcapture.so
 %{_libdir}/obs-plugins/linux-vkcapture.so
 %{_datadir}/vulkan/implicit_layer.d/obs_vkcapture_64.json
 %{_datadir}/obs/obs-plugins/linux-vkcapture/locale/*-*.ini
