@@ -14,6 +14,8 @@ BuildRequires:	cmake ninja
 BuildRequires:  pkgconfig(libobs)
 BuildRequires:  pkgconfig(simde)
 BuildRequires:  vulkan-headers
+BuildRequires:  glslc
+BuildRequires:  glslang
 BuildRequires:  pkgconfig(vulkan)
 BuildRequires:  pkgconfig(x11)
 BuildRequires:  pkgconfig(opengl)
