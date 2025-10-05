@@ -12,6 +12,7 @@ Patch0:     fix-compilation-on-arm.patch
 
 BuildRequires:	cmake ninja
 BuildRequires:  pkgconfig(libobs)
+BuildRequires:  pkgconfig(simde)
 BuildRequires:  vulkan-headers
 BuildRequires:  pkgconfig(vulkan)
 BuildRequires:  pkgconfig(x11)
